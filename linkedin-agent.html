@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A practical guide to using an AI agent for a LinkedIn message workflow.">
+  <title>LinkedIn Message Agent · Agent Workflows</title>
+  <link rel="stylesheet" href="styles.css?v=3">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">LW</span> Agent Workflows</a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="index.html">Home</a><a href="linkedin-agent.html" aria-current="page">LinkedIn Agent</a><a href="research-agent.html">Research Agent</a>
+    </nav>
+  </header>
+  <main class="page">
+    <section class="shell hero detail-hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Workflow 01 · Action</span>
+        <h1>LinkedIn Message Agent</h1>
+        <p class="lede">From “find relevant alumni” to a reviewed outreach message—with browser search, identity checks, and delivery verification along the way.</p>
+        <div class="stat-row"><span class="stat">Natural-language input</span><span class="stat">Browser navigation</span><span class="stat">Verified outcome</span></div>
+      </div>
+      <div>
+        <div class="demo-window" aria-label="An anonymized professional messaging interface">
+          <div class="window-bar"><span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span></div>
+          <div class="window-body">
+            <aside class="inbox"><div class="inbox-title">Messages</div><div class="contact">Example contact<br><small>Selected</small></div></aside>
+            <div class="chat"><div class="chat-head">Recipient · Identity confirmed</div><div class="bubble">Don’t worry—you’ll be fine.</div><span class="sent">✓ Sent successfully</span></div>
+          </div>
+        </div>
+        <span class="privacy-tag">Recreated interface · private history removed</span>
+      </div>
+    </section>
+
+    <section class="page-map shell" aria-labelledby="linkedin-page-map">
+      <div class="page-map-head"><div><span class="section-type">Page guide</span><h3 id="linkedin-page-map">What each module does</h3></div><p>Topics explain the idea. Steps show the actions. The final output gives you something reusable.</p></div>
+      <div class="module-grid">
+        <a class="module-card" href="#topic-use-case"><span class="module-kind">Topic 01</span><strong>Alumni outreach</strong><small>What the agent is responsible for.</small></a>
+        <a class="module-card workflow" href="#workflow-steps"><span class="module-kind">Steps 01–05</span><strong>Action workflow</strong><small>The exact sequence from request to verification.</small></a>
+        <a class="module-card" href="#topic-visuals"><span class="module-kind">Topic 02</span><strong>Visual example</strong><small>What the workflow looks like on screen.</small></a>
+        <a class="module-card output" href="#linkedin-output"><span class="module-kind">Output</span><strong>Reusable prompt</strong><small>A template you can apply yourself.</small></a>
+      </div>
+    </section>
+
+    <section class="section shell" id="topic-use-case">
+      <div class="section-head reveal"><div><span class="section-type">Topic 01 · Alumni outreach</span><p class="kicker">What this module explains</p></div><div><h2>Finding the right alumnus is part of the task.</h2><p class="lede">The agent can search for alumni who match a target school, company, or role; compare likely profiles; draft a personalized message; and wait for approval before sending.</p></div></div>
+
+      <div class="workflow-intro" id="workflow-steps">
+        <div><span class="section-type workflow">Action workflow · Steps 01–05</span><h3>How the agent completes the task</h3></div>
+        <p class="muted">These are actions in sequence—not separate topics. Each step moves the same task closer to a verified result.</p>
+      </div>
+      <div class="steps">
+        <article class="step-card reveal"><div class="step-number">1</div><div class="step-content"><span class="step-kicker">Step 01 · Define</span><h3>Describe the alumni profile</h3><p>Specify the school, target company or function, and the reason for reaching out.</p><div class="prompt">Find Carnegie Mellon alumni working in product management at [company]. Shortlist the best matches and draft a concise outreach message. Do not send anything until I approve the recipient and message.</div></div></article>
+        <article class="step-card reveal"><div class="step-number">2</div><div class="step-content"><span class="step-kicker">Step 02 · Search</span><h3>Find and compare likely alumni</h3><p>The agent opens LinkedIn in the browser and checks visible signals such as school, role, employer, graduation period, location, and any existing connection.</p></div></article>
+        <article class="step-card reveal"><div class="step-number">3</div><div class="step-content"><span class="step-kicker">Step 03 · Review</span><h3>Approve the person and wording</h3><p>The agent presents the strongest match and a personalized draft. You confirm both before an external message is sent.</p></div></article>
+        <article class="step-card reveal"><div class="step-number">4</div><div class="step-content"><span class="step-kicker">Step 04 · Execute</span><h3>Open the correct conversation</h3><p>After approval, the agent opens the selected profile or thread, enters the reviewed copy, and sends one intentional message.</p></div></article>
+        <article class="step-card reveal"><div class="step-number">5</div><div class="step-content"><span class="step-kicker">Step 05 · Verify</span><h3>Confirm the outcome</h3><p>The workflow is not complete when the agent clicks Send. It is complete when the interface shows the new message in the correct conversation and confirms that it was sent.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section shell" id="topic-visuals">
+      <div class="section-head reveal"><div><span class="section-type evidence">Topic 02 · Real example</span><p class="kicker">What the workflow actually looked like</p></div><div><h2>One instruction triggered a real browser workflow.</h2><p class="muted">This past completed example shows the instruction, the browser-assisted action, and the returned proof of completion in one view.</p></div></div>
+      <div class="real-demo-grid">
+        <figure class="real-shot-wrap">
+          <img src="assets/real-linkedin-agent-demo.png" alt="A real past agent conversation showing a LinkedIn instruction, browser action, and completion screenshot">
+          <span class="shot-marker one">1</span><span class="shot-marker two">2</span><span class="shot-marker three">3</span>
+        </figure>
+        <div class="real-demo-notes">
+          <article class="real-note"><span>01 · Instruction</span><h3>Ask in natural language</h3><p>The user names the destination, person or search criteria, and desired action.</p></article>
+          <article class="real-note"><span>02 · Browser action</span><h3>The agent handles navigation</h3><p>The agent opens the browser, locates the relevant LinkedIn surface, and performs the scoped task.</p></article>
+          <article class="real-note"><span>03 · Verified result</span><h3>Proof comes back to the user</h3><p>The final response includes a real interface screenshot so the action is inspectable.</p></article>
+          <p class="demo-disclosure"><strong>Demo boundary:</strong> this image is from an earlier completed workflow. The alumni-outreach example on this page is illustrative; no new LinkedIn search or message was performed while building this site.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="human-checkpoints">
+      <div class="shell">
+        <div class="section-head reveal"><div><span class="section-type light">Topic 03 · Human review</span><p class="kicker" style="color:var(--mint)">What remains human</p></div><h2>Three things I do not delegate blindly.</h2></div>
+        <div class="principle-grid">
+          <div class="principle reveal"><span>01</span><h3>Identity</h3><p class="muted">I confirm the recipient whenever search results are ambiguous.</p></div>
+          <div class="principle reveal"><span>02</span><h3>Tone</h3><p class="muted">I review professional, sensitive, or relationship-dependent wording.</p></div>
+          <div class="principle reveal"><span>03</span><h3>Scope</h3><p class="muted">I use the workflow for intentional one-to-one communication, not bulk unsolicited outreach.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="linkedin-output">
+      <div class="section-head reveal"><div><span class="section-type output">Output · Reusable template</span><p class="kicker">What you can take away</p></div><div><h2>A reusable prompt with an approval checkpoint.</h2><p class="muted">Replace the bracketed fields and keep the identity check when the name is not unique.</p></div></div>
+      <div class="copy-box reveal"><code id="linkedin-prompt">Open LinkedIn and find [person’s name]. Confirm that the profile matches [company, role, school, or another identifying detail]. Draft this message: [message]. Show me the final version before sending.</code><button class="copy-button" data-copy="linkedin-prompt">Copy prompt</button></div>
+    </section>
+
+    <section class="cta shell"><span class="eyebrow">Next workflow</span><h2>See how the same agent model handles research instead of action.</h2><a class="button" href="research-agent.html">Open the research case →</a></section>
+  </main>
+  <footer class="footer shell"><span>Built by Le Wang</span><span>Example details abbreviated for privacy</span></footer>
+  <script src="site.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A practical guide to using an AI agent for evidence-backed user research.">
+  <title>User Research Agent · Agent Workflows</title>
+  <link rel="stylesheet" href="styles.css?v=3">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">LW</span> Agent Workflows</a>
+    <nav class="nav-links" aria-label="Primary navigation"><a href="index.html">Home</a><a href="linkedin-agent.html">LinkedIn Agent</a><a href="research-agent.html" aria-current="page">Research Agent</a></nav>
+  </header>
+  <main class="page">
+    <section class="shell hero detail-hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Workflow 02 · Synthesis</span>
+        <h1>User Research Agent</h1>
+        <p class="lede">Turning fragmented session evidence into a structured case with traceable findings and prioritized product actions.</p>
+        <div class="stat-row"><span class="stat">13 days observed</span><span class="stat">35 session recordings</span><span class="stat">1 repeated trust problem</span></div>
+      </div>
+      <div class="demo-window" style="transform:rotate(-1.5deg)">
+        <div class="window-bar"><span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span></div>
+        <div style="padding:28px">
+          <span class="finding-meta">Executive finding</span>
+          <h3>A high-value builder kept returning because “published” did not feel verifiable.</h3>
+          <p class="muted">The user’s willingness to build, pay, and return was already established. The risk appeared later, when version, live, and preview states stopped agreeing.</p>
+          <div class="mini-flow"><span>Observe</span><span>Pattern</span><span>Evidence</span><span>Priority</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-map shell" aria-labelledby="research-page-map">
+      <div class="page-map-head"><div><span class="section-type">Page guide</span><h3 id="research-page-map">What each module does</h3></div><p>Topics frame the research. Steps describe the method. Evidence and output show what the method produced.</p></div>
+      <div class="module-grid">
+        <a class="module-card" href="#research-question"><span class="module-kind">Topic 01</span><strong>Research objective</strong><small>The decision this case needs to explain.</small></a>
+        <a class="module-card workflow" href="#research-steps"><span class="module-kind">Steps 01–05</span><strong>Research workflow</strong><small>The sequence used to analyze behavior.</small></a>
+        <a class="module-card" href="#research-evidence"><span class="module-kind">Evidence</span><strong>Findings with proof</strong><small>Screenshots connected to interpretation.</small></a>
+        <a class="module-card output" href="#research-output"><span class="module-kind">Output</span><strong>Priorities and prompt</strong><small>Actions and a reusable template.</small></a>
+      </div>
+    </section>
+
+    <section class="section shell" id="research-question">
+      <div class="section-head reveal"><div><span class="section-type">Topic 01 · Research objective</span><p class="kicker">What this module explains</p></div><div><h2>Explain the behavior, not just the clicks.</h2><p class="lede">The agent was asked to determine why a serious builder repeatedly returned, republished, and checked the live product—even after the interface reported success.</p></div></div>
+
+      <div class="workflow-intro" id="research-steps">
+        <div><span class="section-type workflow">Research workflow · Steps 01–05</span><h3>How the agent builds the case</h3></div>
+        <p class="muted">These five steps are one analysis sequence. They move from a focused question to evidence-backed product action.</p>
+      </div>
+      <div class="steps">
+        <article class="step-card reveal"><div class="step-number">1</div><div class="step-content"><span class="step-kicker">Step 01 · Frame</span><h3>Define one decision</h3><p>Start with a question the research should help answer. This prevents a generic chronological summary.</p><div class="prompt">Review this user’s sessions and determine why they repeatedly return, republish, and check the live result.</div></div></article>
+        <article class="step-card reveal"><div class="step-number">2</div><div class="step-content"><span class="step-kicker">Step 02 · Context</span><h3>Build the user context</h3><p>The agent establishes intent, technical behavior, product history, and session timeline. That separates a serious builder from a casual first-day visitor.</p></div></article>
+        <article class="step-card reveal"><div class="step-number">3</div><div class="step-content"><span class="step-kicker">Step 03 · Pattern</span><h3>Look for repetition</h3><p>One confusing moment can be noise. Repetition across days, versions, and short revisit sessions is much stronger evidence.</p></div></article>
+        <article class="step-card reveal"><div class="step-number">4</div><div class="step-content"><span class="step-kicker">Step 04 · Prove</span><h3>Attach evidence to every claim</h3><p>Each finding pairs a screenshot with what to notice and what the observation may mean. Facts and interpretation remain separate.</p></div></article>
+        <article class="step-card reveal"><div class="step-number">5</div><div class="step-content"><span class="step-kicker">Step 05 · Prioritize</span><h3>Turn findings into action</h3><p>The final output is not a transcript. It is a decision-ready artifact: concise conclusion, traceable evidence, and a small number of prioritized recommendations.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section shell" id="research-evidence">
+      <div class="section-head reveal"><div><span class="section-type evidence">Evidence · Findings with proof</span><p class="kicker">What the workflow produced</p></div><div><h2>The screenshots are part of the argument.</h2><p class="muted">Each visual answers three questions: what happened, where to look, and why the moment matters.</p></div></div>
+
+      <article class="evidence-block reveal">
+        <div class="evidence-visual"><img src="assets/research-plans.png" alt="A plan and credits modal covering the main builder workspace"><span class="evidence-label">EVIDENCE 01 · TASK INTERRUPTION</span></div>
+        <div><span class="finding-meta">Pattern 01</span><h3>Pricing repeatedly interrupted the primary task.</h3><p class="muted">The plan and credit layer occupies the central workspace while the unfinished product remains visible behind it.</p><ul class="finding-list"><li><strong>Observe:</strong> The builder task is still in progress.</li><li><strong>Interpret:</strong> Monetization appears before the result is clear.</li><li><strong>Product question:</strong> Can the system show remaining capacity without taking over the workspace?</li></ul></div>
+      </article>
+
+      <article class="evidence-block reveal">
+        <div class="evidence-visual"><img src="assets/research-published.png" alt="Published status visible while the product preview remains blank"><span class="evidence-label">EVIDENCE 02 · STATUS MISMATCH</span></div>
+        <div><span class="finding-meta">Pattern 02</span><h3>“Published” did not produce a visible result.</h3><p class="muted">The interface reports a live version, but the main preview remains blank. The user receives a success label without a perceptible outcome.</p><ul class="finding-list"><li><strong>Observe:</strong> Published and Live are visible.</li><li><strong>Observe:</strong> The preview is still empty.</li><li><strong>Behavioral consequence:</strong> The user returns, republishes, and checks again.</li></ul></div>
+      </article>
+
+      <article class="evidence-block reveal">
+        <div class="evidence-visual"><img src="assets/research-version.png" alt="A new product version shown next to an empty preview"><span class="evidence-label">EVIDENCE 03 · VERSION WITHOUT PROOF</span></div>
+        <div><span class="finding-meta">Pattern 03</span><h3>The version advanced; confidence did not.</h3><p class="muted">The agent reports that a new version was created, yet the visual layer does not confirm that the change is available or correct.</p><ul class="finding-list"><li><strong>Observe:</strong> A new version number is present.</li><li><strong>Gap:</strong> No usable preview appears.</li><li><strong>Interpret:</strong> Text becomes a substitute for product verification.</li></ul></div>
+      </article>
+
+      <article class="evidence-block reveal">
+        <div class="evidence-visual"><img src="assets/research-inactivity.png" alt="A builder preview displaying Skipping inactivity"><span class="evidence-label">EVIDENCE 04 · EXPLAIN THE BLANK</span></div>
+        <div><span class="finding-meta">Pattern 04</span><h3>The preview disappeared without explaining the product state.</h3><p class="muted">“Skipping inactivity” describes the recording, not whether the product is loading, outdated, unavailable, or successfully deployed.</p><ul class="finding-list"><li><strong>Observe:</strong> Work continues in the conversation.</li><li><strong>Gap:</strong> The preview provides no recovery path.</li><li><strong>Need:</strong> Explain why the preview is missing and what the user should do next.</li></ul></div>
+      </article>
+    </section>
+
+    <section class="section dark-section" id="research-output">
+      <div class="shell">
+        <div class="section-head reveal"><div><span class="section-type light">Output · Product priorities</span><p class="kicker" style="color:var(--mint)">What the team should do next</p></div><div><h2>The activation problem was already solved. The trust problem was not.</h2><p class="muted">The user kept building, paying, and returning. The highest-impact improvements sit in the later delivery loop.</p></div></div>
+        <div class="priority-list">
+          <div class="priority-item reveal"><div><h3>Make publishing verifiable</h3><p class="muted">Separate local changes, version generation, live deployment, and preview synchronization into visible states.</p></div></div>
+          <div class="priority-item reveal"><div><h3>Reduce pricing interruptions</h3><p class="muted">Keep capacity information accessible without repeatedly taking over the main workspace.</p></div></div>
+          <div class="priority-item reveal"><div><h3>Explain missing previews</h3><p class="muted">When a preview is unavailable, identify whether it is loading, inactive, outdated, or blocked by an error.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell">
+      <div class="section-head reveal"><div><span class="section-type output">Output · Reusable template</span><p class="kicker">What you can take away</p></div><div><h2>A reusable research prompt.</h2><p class="muted">The instruction forces the output to remain evidence-backed and useful for product decisions.</p></div></div>
+      <div class="copy-box reveal"><code id="research-prompt">Review the supplied user sessions and product context. Identify repeated behaviors, moments of friction, and evidence that supports each conclusion. Separate observed facts from interpretation. Prioritize the findings by user impact and recommend specific product actions.</code><button class="copy-button" data-copy="research-prompt">Copy prompt</button></div>
+    </section>
+
+    <section class="cta shell"><span class="eyebrow">The shared pattern</span><h2>Intent, context, execution, review, and a verified output.</h2><a class="button" href="index.html">Return to the overview →</a></section>
+  </main>
+  <footer class="footer shell"><span>Built by Le Wang</span><span>Research evidence anonymized and cropped</span></footer>
+  <script src="site.js"></script>
+</body>
+</html>
